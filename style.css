@@ -39,7 +39,7 @@ span{
     border-left: 3px solid greenyellow
 }
 #hader .articel p{
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-bottom: 30px;
@@ -81,10 +81,10 @@ span{
     padding-bottom: 20px;
 }
 #my-mission p{
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    padding-bottom: 30px;
+    /* padding-bottom: 15px; */
     text-align: justify;
 }
 #my-mission .mission{
@@ -131,7 +131,7 @@ span{
     width: 72%;
 }
 #develop .develop-articel p{
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-bottom: 30px;
@@ -140,64 +140,66 @@ span{
 /* Develop end */
 
 /* know-our star */
-#know-our{
+#pro-beg{
     margin-bottom: 40PX;
 }
-#know-our .know-articel{
+#pro-beg .pro-text{
      width: 55%;
      padding: 50px 0 30px 0;
 }
-#know-our .know-articel h1{
+#pro-beg .pro-text h1{
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     padding-bottom: 15px;
 }
-#know-our .know-articel p{
-    font-size: 15px;
+#pro-beg .pro-text p{
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-bottom: 30px;
     text-align: justify;
 }
-#know-our .know-img{
+#pro-beg .pro-img{
     width: 35%;
 }
-#know-our .know-img img{
+#pro-beg .pro-img img{
     width: 100%;
 }
 /* know-our end */
 /* Build start */
-#build{
+#stay{
     margin: 50px 0 40px 0;
 }
-#build h1{
+#stay h1{
     text-align: center;
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
-#build .build-img{
+#stay .home-img{
     width: 45%;
     text-align: center;
 }
-#build .build-img img{
+#stay .home-img img{
     width: 75%; 
-    height: 100%; 
+    height: 100%;
+    border-radius: 10px;
 }
-#build .build-articel{
+#stay .home-text{
         width: 50%;
         padding-top: 150px;
 }
-#build .build-articel h1{
+#stay .home-text h1{
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     padding-bottom: 15px;
     text-align: left;
+    width: 92%;
 }
-#build .build-articel p{
-    font-size: 15px;
+#stay .home-text p{
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-bottom: 30px;
