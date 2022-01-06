@@ -1,3 +1,5 @@
+/* font-family: 'Montserrat', sans-serif; */
+
 *{
     margin: 0;
     padding: 0; 
@@ -12,112 +14,205 @@
 
 a{
     text-decoration: none;
-    color: red;
-    background-color:wheat;
+    color: white;
+    background-color:#f1b33e;
     padding: 10px 20px;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 span{
     color: sandybrown;
 }
 /* hader part start */
-.articel{
+#hader{
+    margin-bottom: 30px;
+
+} 
+#hader .articel{
     width: 40%;
 }
-.articel h1{
-    font-size:35px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
+#hader .articel h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     padding-left: 10px;
-    padding-bottom: 10px;
     border-left: 3px solid greenyellow
 }
-.articel p{
-    font-size: ;
-    font-family: 'Courier New', Courier, monospace;
+#hader .articel p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-bottom: 30px;
     padding-top: 20px
 }
 .personal-img{
     width: 40%;
+    position: relative;
 }
 .personal-img img{
     width: 80%;
+    position: absolute;
+    top: -118px;
+    left: 3px;
 }
+    
 /* hader part end */
 /* My Mission start */
 #my-mission{
     margin-bottom: 30px;
+    margin-top: 150px;
+}
+#my-mission img{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
 }
 #my-mission h1{
     text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
-#my-mission .Mission{
+#my-mission h3{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+#my-mission p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#my-mission .mission{
     width: 30%;
+    border-radius: 10px;
+    background-color: #f5bcd7;
+    padding: 0 15px;
 }
-#my-mission .Vission{
+#my-mission .vission{
     width: 30%;
+    border-radius: 10px;
+    background-color: #9ff3c4;
+    padding: 0 15px;
 }
-#my-mission .Goals{
+#my-mission .goals{
     width: 30%;
-}
-#my-mission .img-size{
-    width: 100%;
+    border-radius: 10px;
+    background-color: #e1f1c6;
+    padding: 0 15px;
 }
 /* My Mission end */
 /* Develop start */
 #develop{
-margin-bottom: 40PX;
+    margin-bottom: 40PX;
+    /* background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat; */
 }
 #develop .develop-img{
-    background-color: indigo;
-    width: 40%;
-    height: 200px;
+    width: 35%;
+}
+#develop .develop-img img{
+   width: 100%;
 }
 #develop .develop-articel{
-    background-color: #1e331b;
-    width: 50%;
-    height: 200px;
+    width: 55%;
+    padding: 50px 0 30px 0;
+}
+#develop .develop-articel h1{ 
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+#develop .develop-articel p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
 /* Develop end */
 /* know-our star */
 #know-our{
     margin-bottom: 40PX;
-    }
-    #know-our .know-articel{
-        background-color: #1e331b;
-        width: 50%;
-        height: 200px;
-    }
-    #know-our .know-img{
-        background-color: indigo;
-        width: 40%;
-        height: 200px;
-    }
+}
+#know-our .know-articel{
+     width: 55%;
+     padding: 50px 0 30px 0;
+}
+#know-our .know-articel h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+#know-our .know-articel p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#know-our .know-img{
+    width: 35%;
+}
+#know-our .know-img img{
+    width: 100%;
+}
 /* know-our end */
 /* Build start */
 #build{
-    margin-bottom: 40PX;
-    }
-    #build .build-img{
-        background-color: #1e331b;
+    margin: 50px 0 40px 0;
+}
+#build h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+#build .build-img{
         width: 45%;
-        height: 200px;
-    }
-    #build .build-articel{
-        background-color: indigo;
-        width: 45%;
-        height: 200px;
-    }
-    .footer{
-        background-color: black;
-        width: 100%;
-        height: 200px;
-    }
-
+}
+#build .build-img img{
+    width: 75%; 
+    height: 100%; 
+}
+#build .build-articel{
+        width: 50%;
+        padding-top: 150px;
+}
+#build .build-articel h1{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 15px;
+    text-align: left;
+}
+#build .build-articel p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
 /* Build end */
-
-
-
-
+.footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.footer p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;  
+}
